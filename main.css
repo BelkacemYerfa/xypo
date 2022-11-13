@@ -1,0 +1,610 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+#Myhero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons ul {
+    position: fixed;
+    margin: 17% 0%;
+    margin-left: 1%;
+}
+
+.social-icons ul li {
+    list-style: none;
+    line-height: 50px;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav {
+    position: absolute;
+    left: 9%;
+    top: 0%;
+    margin: 1.8% 0%;
+}
+
+.sidebar ul li {
+    line-height: 15px;
+    font-size: 15px;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background-color: #f67c92;
+    z-index: 5;
+    transition: right 0.5s;
+}
+
+.logo {
+    width: 70%;
+    height: auto;
+}
+
+.toggle {
+    width: 5%;
+    height: auto;
+    position: fixed;
+    right: 3%;
+    top: 6%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.content {
+    max-width: 18rem;
+    position: absolute;
+    left: 8.5%;
+    top: 30%;
+}
+
+.content h2 {
+    font-size: 1.7em;
+}
+
+.btn {
+    height: 15px;
+    width: 15px;
+    background-color: #f67c92;
+}
+
+.content p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+button {
+    border: 2px solid #f67c92;
+    background-color: none;
+    padding: 1.1em 1.9em;
+    font-size: 16px;
+    background-color: white;
+}
+
+button a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.btn1 {
+    height: 20px;
+    width: 20px;
+    background-color: #f67c92;
+}
+
+.line {
+    height: 8px;
+    width: 100px;
+    background-color: #f67c92;
+}
+
+.line2 {
+    height: 8px;
+    width: 75px;
+    background-color: #f67c92;
+    opacity: 0.75;
+    margin-top: 2%;
+}
+
+#head2 {
+    padding: 5% 0%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left {
+    flex-basis: 60%;
+}
+
+.left img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.right {
+    flex-basis: 50%;
+    text-align: right;
+    max-width: 500px;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+#btn2 {
+    float: right;
+    margin-right: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: #f67c92;
+}
+
+.right h2 {
+    font-size: 2.5em;
+}
+
+
+/* always use the flex proprieties and flex boxes */
+
+.descrp-about {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.btn3 {
+    float: right;
+    margin-right: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: #f67c92;
+    opacity: 0.6;
+}
+
+.line3 {
+    float: right;
+    margin-right: 0px;
+    height: 5px;
+    width: 80px;
+    background-color: #f67c92;
+    opacity: 0.75;
+}
+
+.line4 {
+    float: right;
+    margin-right: -80px;
+    height: 5px;
+    width: 50px;
+    background-color: #f67c92;
+    opacity: 0.5;
+    margin-top: 2%;
+}
+
+.abigial-words {
+    font-size: 1.35em;
+    font-weight: 700;
+    color: black;
+    font-style: italic;
+}
+
+#feauters {
+    padding: 5% 0%;
+}
+
+#feauters-row {
+    width: 80%;
+    margin: auto;
+    /* it make space between items equaly */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feuters-col {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.feuters-col h4 {
+    font-size: 20px;
+}
+
+.feuters-col p {
+    margin-top: 2.5%;
+    font-size: 16px;
+}
+
+.items {
+    padding: 2.5%;
+    justify-content: center;
+    text-align: center;
+}
+
+#courses {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.imgright {
+    flex-basis: 50%;
+}
+
+.imgright img {
+    width: 100%;
+}
+
+.descleft {
+    flex-basis: 50%;
+    text-align: left;
+    max-width: 400px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+#offers {
+    padding: 5% 0%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left {
+    flex-basis: 60%;
+}
+
+.left img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.right {
+    flex-basis: 50%;
+    text-align: right;
+    max-width: 500px;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+#btn2 {
+    float: right;
+    margin-right: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: #f67c92;
+}
+
+.right h2 {
+    font-size: 2.5em;
+}
+
+
+/* always use the flex proprieties and flex boxes */
+
+.descrp-about {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.btn3 {
+    float: right;
+    margin-right: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: #f67c92;
+    opacity: 0.6;
+}
+
+.line3 {
+    float: right;
+    margin-right: 0px;
+    height: 5px;
+    width: 80px;
+    background-color: #f67c92;
+    opacity: 0.75;
+}
+
+.line4 {
+    float: right;
+    margin-right: -80px;
+    height: 5px;
+    width: 50px;
+    background-color: #f67c92;
+    opacity: 0.5;
+    margin-top: 2%;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.imgright {
+    flex-basis: 50%;
+}
+
+.imgright img {
+    width: 100%;
+}
+
+.contact-form {
+    flex-basis: 50%;
+    text-align: left;
+    max-width: 400px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+input {
+    border: 2px solid #f67c92;
+    background-color: none;
+    padding: 1em 3.59em;
+    font-size: 16px;
+    background-color: white;
+    margin: 1.5% 0%;
+    outline: #f67c92;
+    text-align: left;
+}
+
+::placeholder {
+    opacity: 0.75;
+}
+
+.btn4 {
+    float: left;
+    margin-left: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: #f67c92;
+    opacity: 0.6;
+}
+
+.line6 {
+    float: left;
+    margin-left: 0px;
+    height: 5px;
+    width: 80px;
+    background-color: #f67c92;
+    opacity: 0.75;
+}
+
+.line7 {
+    text-align: left;
+    margin-left: 0px;
+    height: 5px;
+    width: 50px;
+    background-color: #f67c92;
+    opacity: 0.5;
+    margin-top: 2.5%;
+}
+
+hr {
+    border: 1px solid #f67c92;
+    height: 1px;
+    width: 85%;
+    position: absolute;
+    right: 12.5%;
+    left: 10%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 5.5%;
+}
+
+.col3 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.logo2 {
+    width: 70px;
+    height: auto;
+}
+
+.col1 h3 {
+    color: #f67c92;
+    font-size: 20px;
+}
+
+.col1 ul li {
+    list-style: none;
+    opacity: 0.85;
+    font-size: 17px;
+    line-height: 1.35em;
+}
+
+.col1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover {
+    animation: trans 1s linear forwards;
+}
+
+@keyframes trans {
+    0% {
+        transform: scale(1);
+        color: black;
+    }
+    100% {
+        transform: scale(1.05);
+        color: #f67c92;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .hero {
+        background-image: none;
+    }
+    .content {
+        margin: 0px 50px;
+        align-items: center;
+    }
+    .content h2 {
+        font-size: 1.5em;
+    }
+    .btn {
+        height: 10px;
+        width: 10px;
+        background-color: #f67c92;
+    }
+    .content p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    button {
+        border: 2px solid #f67c92;
+        background-color: none;
+        padding: 1em 1.2em;
+        font-size: 14px;
+        background-color: white;
+    }
+    button a {
+        text-decoration: none;
+        text-align: center;
+        color: black;
+    }
+    .btn1 {
+        height: 10px;
+        width: 10px;
+        background-color: #f67c92;
+    }
+    .line {
+        height: 4px;
+        width: 70px;
+        background-color: #f67c92;
+    }
+    .line2 {
+        height: 4px;
+        width: 55px;
+        background-color: #f67c92;
+        opacity: 0.75;
+        margin-top: 2%;
+    }
+    nav {
+        vertical-align: center;
+    }
+    .logo {
+        width: 40%;
+        height: auto;
+        margin-left: 50px;
+        padding-top: 6%;
+    }
+    .toggle {
+        width: 5%;
+        height: auto;
+        position: fixed;
+        right: 7.5%;
+        top: 5%;
+        cursor: pointer;
+        z-index: 10;
+    }
+    .social-icons ul li a img {
+        width: 23px;
+        height: auto;
+    }
+    .social-icons ul {
+        align-items: center;
+        justify-content: space-between;
+        margin: 40% 2%;
+    }
+    .left,
+    .right {
+        flex-basis: 100%;
+        flex-wrap: wrap;
+    }
+    .right {
+        align-items: center;
+        margin: 50px 50px 0px;
+    }
+    .right h2 {
+        font-size: 1.5em;
+    }
+    .descrp-about {
+        font-size: 12px;
+        opacity: 0.7;
+    }
+    .abigial-words {
+        font-size: 15px;
+    }
+    .imgright,
+    .descleft {
+        flex-basis: 100%;
+    }
+    input {
+        border: 1.5px solid #f67c92;
+        background-color: none;
+        padding: 1em 3em;
+        font-size: 14px;
+        background-color: white;
+        margin: 1.5% 0%;
+        outline: #f67c92;
+        text-align: left;
+    }
+    .btn4 {
+        float: left;
+        margin-left: 0px;
+        height: 10px;
+        width: 10px;
+        background-color: #f67c92;
+        opacity: 0.6;
+    }
+    .line6 {
+        float: left;
+        margin-left: 0px;
+        height: 3px;
+        width: 80px;
+        background-color: #f67c92;
+        opacity: 0.75;
+    }
+    .line7 {
+        text-align: left;
+        margin-left: 0px;
+        height: 3px;
+        width: 50px;
+        background-color: #f67c92;
+        opacity: 0.5;
+        margin-top: 2.5%;
+    }
+    footer {
+        min-height: 50vh;
+        justify-content: space-between;
+        padding-left: 10%;
+    }
+}
